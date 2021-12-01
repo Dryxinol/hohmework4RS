@@ -15,9 +15,10 @@ const revDel = require('gulp-rev-delete-original');
 const htmlmin = require('gulp-htmlmin');
 const gulpif = require('gulp-if');
 const notify = require('gulp-notify');
-const image = require('gulp-image');
+// const image = require('gulp-image');
 const { readFileSync } = require('fs');
 const concat = require('gulp-concat');
+
 
 let isProd = false; // dev by default
 
@@ -102,7 +103,7 @@ const images = () => {
 		'./src/img/**/*.png',
 		'./src/img/**/*.jpeg'
 		])
-    .pipe(gulpif(isProd, image()))
+    // .pipe(gulpif(isProd, image()))
     .pipe(dest('./app/img'))
 };
 
