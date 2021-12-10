@@ -1,0 +1,48 @@
+section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 100vh;
+}
+
+.contact__address {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  margin-top: 20px;
+  padding: 11px 107px;
+  border: 1px solid #fff;
+  border-left-width: 0;
+
+  &:last-child {
+    border-right-width: 0;
+  }
+}
+
+.buttons-wrap {
+  @include flex-h-center;
+
+  margin-top: 700px;
+}
+
+.buttons {
+  @include flex-all-sb;
+  // display: flex;
+//   justify-content: space-between;
+}
+
+button:not(:last-child) {
+  margin-right: 30px;
+}

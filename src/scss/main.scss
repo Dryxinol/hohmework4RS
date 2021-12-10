@@ -1,0 +1,9 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+@import "./components/_main";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@700&display=swap');

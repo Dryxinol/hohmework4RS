@@ -1,0 +1,33 @@
+body
+ {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #282828;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 0;
+  border-top: 1px solid #998431;
+  border-bottom: 1px solid #998431;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  width: 100%;
+}
+
+button {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #99862a;
+  padding: 15px 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+}
